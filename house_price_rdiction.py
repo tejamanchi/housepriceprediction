@@ -11,6 +11,8 @@ X_train, X_test, y_train, y_test=train_test_split(x,y,test_size=0.2,random_state
 from sklearn.linear_model import LinearRegression
 model=LinearRegression()
 model.fit(X_train, y_train)
+import pickle
+pickle.dump(model, open("model.pkl", "wb"))
 y_pred=model.predict(X_test)
 from sklearn.metrics import mean_absolute_error,r2_score
 mae=mean_absolute_error(y_test,y_pred)
