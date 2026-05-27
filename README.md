@@ -14,5 +14,8 @@ This project predicts house prices using Linear Regression Machine Learning algo
 -Price prediction
 -Accuracy evaluation
 
+## Live Demo
+sctml1-xm67bsthkaujjfkkanmnb4
+
 ##Author
 Tejaswini Manchi
